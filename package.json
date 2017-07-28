@@ -1,0 +1,14 @@
+{
+  "name": "CS Problems with ES6",
+  "version": "1.0.0",
+  "description": "Node Local server Start",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Soe Lin Tun",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
