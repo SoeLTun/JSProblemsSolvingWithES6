@@ -8,7 +8,7 @@ function PalindromeV1(str) {
 
 function PalindromeV2(str) {
     let strArray = Array.from(str);
-    if (strArray.length < 1) return true;
+    if (strArray.length <= 1) return true;
     else if (strArray.shift() === strArray.pop())
         return PalindromeV2(strArray.join(''));
     else
